@@ -1,4 +1,4 @@
-# Employee Management System (EMS) - DBMS Project
+# Trippin Tech Employee Management System (EMS) - DBMS Project
 
 ![EMS System Preview](Edbms.png)
 
