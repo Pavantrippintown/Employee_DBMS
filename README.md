@@ -48,5 +48,5 @@ A comprehensive Database Management System for managing employee data, projects,
 
 2. **Setup**:
    ```bash
-   git clone https://github.com/yourusername/employee-management-system.git
+   git clone https://https://github.com/Pavantrippintown/Employee_DBMS.git
    cd employee-management-system
