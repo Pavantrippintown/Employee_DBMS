@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us | Trippintown Tech</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,500,700">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/all.min.css">
+    <style>
+        .team-member {
+            background: rgba(15, 15, 25, 0.8);
+            border: 1px solid rgba(123, 45, 255, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1rem;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 240, 255, 0.3);
+        }
+        .member-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            margin-bottom: 1rem;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 3rem 0;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            margin: 2rem 0;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="futuristic-body">
+    <header>
+        <nav>
+            <h1 class="glow-text">Trippintown Tech</h1>
+            <ul id="navli">
+                <li><a class="homeblack" href="index.html">HOME</a></li>
+                <li><a class="homered" href="aboutus.html">ABOUT US</a></li>
+                <li><a class="homeblack" href="contact.html">CONTACT</a></li>
+                <li><a class="homeblack" href="elogin.html">LOG IN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="divider"></div>
+
+    <h2 class="section-title">Our Core Team</h2>
+    
+    <div class="team-container">
+        <div class="team-member floating">
+            <div class="member-image">
+                <img src="process/images/no.jpg" alt="Mehadi Hassan" class="member-avatar">
+            </div>
+            <h3 class="text-gradient">Mehadi Hassan</h3>
+            <p>Lead Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="team-member floating">
+            <div class="member-image">
+                <img src="process/images/no.jpg" alt="Shoaib Ahmed Dipu" class="member-avatar">
+            </div>
+            <h3 class="text-gradient">Shoaib Ahmed Dipu</h3>
+            <p>System Architect</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="team-member floating">
+            <div class="member-image">
+                <img src="process/images/no.jpg" alt="Shemonto Das" class="member-avatar">
+            </div>
+            <h3 class="text-gradient">Shemonto Das</h3>
+            <p>UI/UX Designer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-1">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title text-gradient">Our Vision</h2>
+                    <p class="subtitle">At Trippintown Tech, we're pioneering the future of employee management systems with cutting-edge technology and innovative solutions. Our platform combines sleek design with powerful functionality to streamline HR processes and enhance workplace productivity.</p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-rocket feature-icon"></i>
+                            <h3>Innovation</h3>
+                            <p>Constantly pushing boundaries with futuristic designs and features</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt feature-icon"></i>
+                            <h3>Security</h3>
+                            <p>Enterprise-grade protection for your sensitive employee data</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-bolt feature-icon"></i>
+                            <h3>Performance</h3>
+                            <p>Lightning-fast processing for all your HR operations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+</html>
