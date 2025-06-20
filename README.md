@@ -2,7 +2,6 @@
 
 ![EMS System Preview]
 home.png
-Edbms.png
 
 A comprehensive Database Management System for managing employee data, projects, leaves, and salaries.
 
