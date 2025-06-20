@@ -1,6 +1,6 @@
 # Trippin Tech Employee Management System (EMS) - DBMS Project
 
-![EMS System Preview](Edbms.png)
+![EMS System Preview](home.png)(Edbms.png)
 
 A comprehensive Database Management System for managing employee data, projects, leaves, and salaries.
 
